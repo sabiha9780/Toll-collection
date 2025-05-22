@@ -1,0 +1,14 @@
+D:\toll\toll collection\toll collection\obj\Debug\toll collection.csproj.AssemblyReference.cache
+D:\toll\toll collection\toll collection\obj\Debug\toll collection.csproj.CoreCompileInputs.cache
+D:\toll\toll collection\toll collection\bin\Debug\toll collection.exe.config
+D:\toll\toll collection\toll collection\bin\Debug\toll collection.exe
+D:\toll\toll collection\toll collection\bin\Debug\toll collection.pdb
+D:\toll\toll collection\toll collection\obj\Debug\toll collection.exe
+D:\toll\toll collection\toll collection\obj\Debug\toll collection.pdb
+D:\c# module\project Toll Collection\toll collection\toll collection\bin\Debug\toll collection.exe.config
+D:\c# module\project Toll Collection\toll collection\toll collection\bin\Debug\toll collection.exe
+D:\c# module\project Toll Collection\toll collection\toll collection\bin\Debug\toll collection.pdb
+D:\c# module\project Toll Collection\toll collection\toll collection\obj\Debug\toll collection.csproj.AssemblyReference.cache
+D:\c# module\project Toll Collection\toll collection\toll collection\obj\Debug\toll collection.csproj.CoreCompileInputs.cache
+D:\c# module\project Toll Collection\toll collection\toll collection\obj\Debug\toll collection.exe
+D:\c# module\project Toll Collection\toll collection\toll collection\obj\Debug\toll collection.pdb
