@@ -197,24 +197,8 @@ public sealed class VehicleRepository : IRepository<Vehicle>
     }
 
 
-   /* public async Task<IEnumerable<Vehicle>> SearchAsync(string value)
-    {
-        var result = await Task.Run(() =>
-        {
-            return from v in data.AsParallel()
-                   where v.Id.ToString().Equals(value) ||
-                         v.UserName.StartsWith(value, StringComparison.OrdinalIgnoreCase) ||
-                         v.Location.StartsWith(value, StringComparison.OrdinalIgnoreCase) ||
-                         v.ContactNumber.Contains(value) ||
-                         v.VehicleType.ToString().Contains(value) ||
-                         v.VehicleColor.ToString().Contains(value)
-                   orderby v.UserName ascending
-                   select v;
-        });
+  
 
-        return result;
-    }
-   */
     
     public IEnumerable<Vehicle> Search(string value)
     {
@@ -235,22 +219,7 @@ public sealed class VehicleRepository : IRepository<Vehicle>
         return result;
     }
 
-
-    /* public IEnumerable<Vehicle> Search(string value)
-     {
-         var result = from v in data.AsParallel()
-                      where v.Id.ToString().Contains(value) ||
-                            v.UserName.StartsWith(value, StringComparison.OrdinalIgnoreCase) ||
-                            v.Location.StartsWith(value, StringComparison.OrdinalIgnoreCase) ||
-                            v.ContactNumber.Contains(value) ||
-                            v.VehicleType.ToString().Contains(value) ||
-                            v.VehicleColor.ToString().Contains(value)
-                      orderby v.UserName ascending
-                      select v;
-
-         return result;
-}
-*/
+  
 public IEnumerator<Vehicle> GetEnumerator()
     {
         return data.GetEnumerator();
